@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2D4AD15E1F3D4BDE006BF618 /* SwiftCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4AD1541F3D4BDE006BF618 /* SwiftCharts.framework */; };
-		2D4AD1631F3D4BDE006BF618 /* SwiftChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD1621F3D4BDE006BF618 /* SwiftChartsTests.swift */; };
 		2D4AD1651F3D4BDE006BF618 /* SwiftCharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4AD1571F3D4BDE006BF618 /* SwiftCharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D86A79F1F3D4D8E003464FC /* DiscreteLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A79E1F3D4D8D003464FC /* DiscreteLineChartView.swift */; };
+		2D86A7A71F3D5312003464FC /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A61F3D5312003464FC /* DonutChartView.swift */; };
+		2D86A7A81F3D5312003464FC /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A61F3D5312003464FC /* DonutChartView.swift */; };
+		2D86A7AA1F3D53FA003464FC /* DonutChartFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */; };
+		2D86A7AB1F3D53FA003464FC /* DonutChartFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */; };
+		2D86A7AD1F3D5421003464FC /* DonutChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7AC1F3D5421003464FC /* DonutChartData.swift */; };
+		2D86A7AE1F3D5421003464FC /* DonutChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7AC1F3D5421003464FC /* DonutChartData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +33,11 @@
 		2D4AD1571F3D4BDE006BF618 /* SwiftCharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCharts.h; sourceTree = "<group>"; };
 		2D4AD1581F3D4BDE006BF618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D4AD15D1F3D4BDE006BF618 /* SwiftChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D4AD1621F3D4BDE006BF618 /* SwiftChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsTests.swift; sourceTree = "<group>"; };
 		2D4AD1641F3D4BDE006BF618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D86A79E1F3D4D8D003464FC /* DiscreteLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscreteLineChartView.swift; sourceTree = "<group>"; };
+		2D86A7A61F3D5312003464FC /* DonutChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartView.swift; sourceTree = "<group>"; };
+		2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartFactory.swift; sourceTree = "<group>"; };
+		2D86A7AC1F3D5421003464FC /* DonutChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,10 @@
 			children = (
 				2D4AD1571F3D4BDE006BF618 /* SwiftCharts.h */,
 				2D4AD1581F3D4BDE006BF618 /* Info.plist */,
+				2D86A79E1F3D4D8D003464FC /* DiscreteLineChartView.swift */,
+				2D86A7A61F3D5312003464FC /* DonutChartView.swift */,
+				2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */,
+				2D86A7AC1F3D5421003464FC /* DonutChartData.swift */,
 			);
 			path = SwiftCharts;
 			sourceTree = "<group>";
@@ -80,7 +93,6 @@
 		2D4AD1611F3D4BDE006BF618 /* SwiftChartsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2D4AD1621F3D4BDE006BF618 /* SwiftChartsTests.swift */,
 				2D4AD1641F3D4BDE006BF618 /* Info.plist */,
 			);
 			path = SwiftChartsTests;
@@ -149,11 +161,13 @@
 					2D4AD1531F3D4BDE006BF618 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4GRU64H6K4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					2D4AD15C1F3D4BDE006BF618 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4GRU64H6K4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -198,6 +212,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D86A7A71F3D5312003464FC /* DonutChartView.swift in Sources */,
+				2D86A7AD1F3D5421003464FC /* DonutChartData.swift in Sources */,
+				2D86A79F1F3D4D8E003464FC /* DiscreteLineChartView.swift in Sources */,
+				2D86A7AA1F3D53FA003464FC /* DonutChartFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4AD1631F3D4BDE006BF618 /* SwiftChartsTests.swift in Sources */,
+				2D86A7AB1F3D53FA003464FC /* DonutChartFactory.swift in Sources */,
+				2D86A7A81F3D5312003464FC /* DonutChartView.swift in Sources */,
+				2D86A7AE1F3D5421003464FC /* DonutChartData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +344,7 @@
 		2D4AD1691F3D4BDE006BF618 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4GRU64H6K4;
@@ -336,6 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.umezaki.SwiftCharts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -343,6 +365,7 @@
 		2D4AD16A1F3D4BDE006BF618 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4GRU64H6K4;
@@ -362,11 +385,14 @@
 		2D4AD16C1F3D4BDE006BF618 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4GRU64H6K4;
 				INFOPLIST_FILE = SwiftChartsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.umezaki.SwiftChartsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -374,6 +400,8 @@
 		2D4AD16D1F3D4BDE006BF618 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4GRU64H6K4;
 				INFOPLIST_FILE = SwiftChartsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -402,6 +430,7 @@
 				2D4AD16A1F3D4BDE006BF618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D4AD16B1F3D4BDE006BF618 /* Build configuration list for PBXNativeTarget "SwiftChartsTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +439,7 @@
 				2D4AD16D1F3D4BDE006BF618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
