@@ -6,7 +6,7 @@ Simple framework to draw customizable charts for iOS.
 #### First of all - Import module
 Import SwiftCharts module on your ViewController
 ``` swift
-import SwiftChartsa
+import SwiftCharts
 ```
 
 
