@@ -46,6 +46,10 @@ pieChartData.append(DonutChartData(label: "Label2", value: 200, color: UIColor.b
 pieChartView.setChartData(chartData: pieChartData)
 ```
 
+##### Basic example
+<img src="Images/screenshot.png"/>
+<br />
+
 ## Up next (todo)
 - Bar chart.
 - Continous line chart.
