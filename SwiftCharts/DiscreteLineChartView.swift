@@ -5,7 +5,7 @@ import UIKit
     @IBInspectable public var startColor: UIColor = UIColor.red
     @IBInspectable public var endColor: UIColor = UIColor.orange
     
-    private var graphPoints:[Int] = [4, 2, 6, 4, 5, 8, 3]
+    private var graphPoints:[Int] = []
     
     override public init(frame: CGRect) {
         super.init(frame: frame)

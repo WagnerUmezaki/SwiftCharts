@@ -7,6 +7,7 @@ import UIKit
     private var data:[DonutChartData] = []
     
     override public init(frame: CGRect) {
+        // MARK: just to show for IBDesignable. Affects performance. Need to be removed from here
         data.append(DonutChartData(label: "Label1", value: 100, color: UIColor.red))
         data.append(DonutChartData(label: "Label2", value: 200, color: UIColor.blue))
         data.append(DonutChartData(label: "Label3", value: 50, color: UIColor.green))

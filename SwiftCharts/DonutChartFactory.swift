@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-public class DonutChartFactory {
+class DonutChartFactory {
     private let π = Double.pi
     
     private static var INSTANCE: DonutChartFactory = DonutChartFactory()

@@ -7,19 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D4AD15E1F3D4BDE006BF618 /* SwiftCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4AD1541F3D4BDE006BF618 /* SwiftCharts.framework */; };
 		2D4AD1651F3D4BDE006BF618 /* SwiftCharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4AD1571F3D4BDE006BF618 /* SwiftCharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D86A79F1F3D4D8E003464FC /* DiscreteLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A79E1F3D4D8D003464FC /* DiscreteLineChartView.swift */; };
 		2D86A7A71F3D5312003464FC /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A61F3D5312003464FC /* DonutChartView.swift */; };
-		2D86A7A81F3D5312003464FC /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A61F3D5312003464FC /* DonutChartView.swift */; };
 		2D86A7AA1F3D53FA003464FC /* DonutChartFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */; };
-		2D86A7AB1F3D53FA003464FC /* DonutChartFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */; };
 		2D86A7AD1F3D5421003464FC /* DonutChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7AC1F3D5421003464FC /* DonutChartData.swift */; };
-		2D86A7AE1F3D5421003464FC /* DonutChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7AC1F3D5421003464FC /* DonutChartData.swift */; };
+		2DE969281F3EBF8600A6ECD7 /* SwiftCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4AD1541F3D4BDE006BF618 /* SwiftCharts.framework */; };
 		2DFA27CE1F3EB45300F0C1C6 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA27CD1F3EB45300F0C1C6 /* PieChartView.swift */; };
-		2DFA27CF1F3EB45300F0C1C6 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA27CD1F3EB45300F0C1C6 /* PieChartView.swift */; };
 		2DFA27D11F3EB4A300F0C1C6 /* NumberUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA27D01F3EB4A300F0C1C6 /* NumberUtils.swift */; };
-		2DFA27D21F3EB4A300F0C1C6 /* NumberUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA27D01F3EB4A300F0C1C6 /* NumberUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4AD15E1F3D4BDE006BF618 /* SwiftCharts.framework in Frameworks */,
+				2DE969281F3EBF8600A6ECD7 /* SwiftCharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,11 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFA27CF1F3EB45300F0C1C6 /* PieChartView.swift in Sources */,
-				2DFA27D21F3EB4A300F0C1C6 /* NumberUtils.swift in Sources */,
-				2D86A7AB1F3D53FA003464FC /* DonutChartFactory.swift in Sources */,
-				2D86A7A81F3D5312003464FC /* DonutChartView.swift in Sources */,
-				2D86A7AE1F3D5421003464FC /* DonutChartData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
