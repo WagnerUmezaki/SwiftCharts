@@ -47,7 +47,7 @@ pieChartView.setChartData(chartData: pieChartData)
 ```
 
 ##### Basic example
-<img src="Images/screenshot.png" style="max-width= 300px;"/>
+<img src="Images/screenshot.png" style="max-width:300px;"/>
 
 ## Up next (todo)
 - Bar chart.
