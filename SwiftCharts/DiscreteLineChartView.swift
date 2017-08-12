@@ -166,6 +166,7 @@ import UIKit
     
     public func setChartData(data: [Int]) {
         self.graphPoints = data
+        self.setNeedsDisplay()
     }
 
 }

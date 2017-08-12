@@ -2,6 +2,8 @@
 
 Simple framework to draw customizable charts for iOS.
 
+![Swift 3.0.x](https://img.shields.io/badge/Swift-3.0.x-orange.svg) ![platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg) ![licence](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ## Using
 #### First of all - Import module
 Import SwiftCharts module on your ViewController
@@ -47,7 +49,7 @@ pieChartView.setChartData(chartData: pieChartData)
 ```
 
 ##### Basic example
-<img src="Images/screenshot.png" style="max-width:300px;"/>
+<img src="Images/screenshot.png" style="width:200px;"/>
 
 ## Up next (todo)
 - Bar chart.
@@ -64,4 +66,3 @@ pieChartView.setChartData(chartData: pieChartData)
 Feel free to open [issues](https://github.com/WagnerUmezaki/SwiftCharts/issues) for report bugs, discuss some ideas or anything to make this a good framework. :)
 ## Lisence
 MIT
-
