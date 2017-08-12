@@ -48,6 +48,21 @@ pieChartData.append(DonutChartData(label: "Label2", value: 200, color: UIColor.b
 pieChartView.setChartData(chartData: pieChartData)
 ```
 
+##### SimpleBarChartView
+Create reference
+```swift
+@IBOutlet weak var simpleBarChartView: SimpleBarChartView!
+```
+Updating data:
+```swift
+var simpleBarChartData:[SimpleBarChartData] = []
+simpleBarChartData.append(SimpleBarChartData(label: "label1", value: 100))
+simpleBarChartData.append(SimpleBarChartData(label: "label2", value: 50))
+//or if you don`t wanna to use default color setted on attribute inspector
+simpleBarChartData.append(SimpleBarChartData(label: "label3", value: 150, color: UIColor.blue))
+self.simpleBarChartView.setData(newData: simpleBarChartData)
+```
+
 ##### Basic example
 <p align="center">
     <img src="Images/screenshot.png" width="200"/>
