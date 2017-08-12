@@ -1,9 +1,7 @@
 import UIKit
 
-@IBDesignable public class DonutChartView: UIView {
-    
-    @IBInspectable public var arcWidthFactor: Int = 4
-    
+public class PieChartView: UIView {
+
     private var data:[DonutChartData] = []
     
     override public init(frame: CGRect) {
@@ -20,7 +18,7 @@ import UIKit
     public override func draw(_ rect: CGRect) {
         let chartLayer = DonutChartFactory.getInstance().gimmeAChart(
             bounds: self.layer.bounds,
-            arcWidth: NumberUtils.min(value1: self.layer.bounds.height, value2: self.layer.bounds.width)/CGFloat(arcWidthFactor),
+            arcWidth: NumberUtils.min(value1: self.layer.bounds.height, value2: self.layer.bounds.width)/2,
             dataToDisplay: data)
         
         self.layer.addSublayer(chartLayer)
@@ -30,4 +28,5 @@ import UIKit
         self.data = chartData
         self.setNeedsDisplay()
     }
+
 }

@@ -16,6 +16,10 @@
 		2D86A7AB1F3D53FA003464FC /* DonutChartFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */; };
 		2D86A7AD1F3D5421003464FC /* DonutChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7AC1F3D5421003464FC /* DonutChartData.swift */; };
 		2D86A7AE1F3D5421003464FC /* DonutChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7AC1F3D5421003464FC /* DonutChartData.swift */; };
+		2DFA27CE1F3EB45300F0C1C6 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA27CD1F3EB45300F0C1C6 /* PieChartView.swift */; };
+		2DFA27CF1F3EB45300F0C1C6 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA27CD1F3EB45300F0C1C6 /* PieChartView.swift */; };
+		2DFA27D11F3EB4A300F0C1C6 /* NumberUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA27D01F3EB4A300F0C1C6 /* NumberUtils.swift */; };
+		2DFA27D21F3EB4A300F0C1C6 /* NumberUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA27D01F3EB4A300F0C1C6 /* NumberUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,8 @@
 		2D86A7A61F3D5312003464FC /* DonutChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartView.swift; sourceTree = "<group>"; };
 		2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartFactory.swift; sourceTree = "<group>"; };
 		2D86A7AC1F3D5421003464FC /* DonutChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartData.swift; sourceTree = "<group>"; };
+		2DFA27CD1F3EB45300F0C1C6 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		2DFA27D01F3EB4A300F0C1C6 /* NumberUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,8 @@
 				2D86A7A61F3D5312003464FC /* DonutChartView.swift */,
 				2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */,
 				2D86A7AC1F3D5421003464FC /* DonutChartData.swift */,
+				2DFA27CD1F3EB45300F0C1C6 /* PieChartView.swift */,
+				2DFA27D01F3EB4A300F0C1C6 /* NumberUtils.swift */,
 			);
 			path = SwiftCharts;
 			sourceTree = "<group>";
@@ -213,8 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D86A7A71F3D5312003464FC /* DonutChartView.swift in Sources */,
+				2DFA27CE1F3EB45300F0C1C6 /* PieChartView.swift in Sources */,
 				2D86A7AD1F3D5421003464FC /* DonutChartData.swift in Sources */,
 				2D86A79F1F3D4D8E003464FC /* DiscreteLineChartView.swift in Sources */,
+				2DFA27D11F3EB4A300F0C1C6 /* NumberUtils.swift in Sources */,
 				2D86A7AA1F3D53FA003464FC /* DonutChartFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFA27CF1F3EB45300F0C1C6 /* PieChartView.swift in Sources */,
+				2DFA27D21F3EB4A300F0C1C6 /* NumberUtils.swift in Sources */,
 				2D86A7AB1F3D53FA003464FC /* DonutChartFactory.swift in Sources */,
 				2D86A7A81F3D5312003464FC /* DonutChartView.swift in Sources */,
 				2D86A7AE1F3D5421003464FC /* DonutChartData.swift in Sources */,
