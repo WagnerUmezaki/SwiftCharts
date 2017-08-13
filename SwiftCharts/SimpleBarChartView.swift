@@ -51,7 +51,7 @@ import UIKit
                                     options: CGGradientDrawingOptions(rawValue: 0))
         
         // math on x axis
-        let availableSpaceOnX = self.bounds.width - (2*margin)
+        let availableSpaceOnX = (self.bounds.width - (2*margin))
         let numberOfBars = chartData.count
         let numberOfGaps = numberOfBars+1
         let gapFactor:CGFloat = 0.25
@@ -61,7 +61,7 @@ import UIKit
         
         // math on y axis
         let maxValueOfData = self.maxValueOfData()
-        let availableSpaceOnY = self.bounds.height - (2*margin)
+        let availableSpaceOnY = (self.bounds.height - (2*margin))*0.95
         
         //draw bars
         for data in chartData {

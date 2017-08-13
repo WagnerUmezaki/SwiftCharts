@@ -2,7 +2,7 @@ import UIKit
 
 @IBDesignable public class PieChartView: UIView {
 
-    private var data:[DonutChartData] = []
+    private var data:[PieChartData] = []
     
     private var chartLayer:CALayer?
     private var maskChartLayer: CAShapeLayer?
@@ -19,7 +19,7 @@ import UIKit
         createMaskLayer()
     }
     
-    public func setChartData(chartData:[DonutChartData]) {
+    public func setChartData(chartData:[PieChartData]) {
         self.layer.sublayers?.removeAll()
         self.data = chartData
         createChartLayer()
@@ -39,7 +39,7 @@ import UIKit
     
     private func createChartLayer() {
         let arcWidth = calculateArcWidth()
-        chartLayer = DonutChartFactory.getInstance().gimmeAChart(
+        chartLayer = PieChartFactory.getInstance().gimmeAChart(
             bounds: self.layer.bounds,
             arcWidth: arcWidth,
             dataToDisplay: data)
@@ -48,7 +48,7 @@ import UIKit
     
     private func createMaskLayer() {
         let arcWidth = calculateArcWidth()
-        maskChartLayer = DonutChartFactory.getInstance().createMask(bounds: self.layer.bounds, arcWidth: arcWidth)
+        maskChartLayer = PieChartFactory.getInstance().createMask(bounds: self.layer.bounds, arcWidth: arcWidth)
         self.layer.addSublayer(maskChartLayer!)
     }
     

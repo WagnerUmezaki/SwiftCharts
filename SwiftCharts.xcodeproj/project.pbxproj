@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3965C71F400A4B003081FF /* DonutChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3965C61F400A4B003081FF /* DonutChartData.swift */; };
+		2D3965CA1F400AA2003081FF /* PieChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3965C91F400AA2003081FF /* PieChartData.swift */; };
+		2D3965CC1F400C64003081FF /* PieChartFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3965CB1F400C64003081FF /* PieChartFactory.swift */; };
 		2D4AD1651F3D4BDE006BF618 /* SwiftCharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4AD1571F3D4BDE006BF618 /* SwiftCharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D86A79F1F3D4D8E003464FC /* DiscreteLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A79E1F3D4D8D003464FC /* DiscreteLineChartView.swift */; };
 		2D86A7A71F3D5312003464FC /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A61F3D5312003464FC /* DonutChartView.swift */; };
 		2D86A7AA1F3D53FA003464FC /* DonutChartFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */; };
-		2D86A7AD1F3D5421003464FC /* DonutChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D86A7AC1F3D5421003464FC /* DonutChartData.swift */; };
 		2DE969281F3EBF8600A6ECD7 /* SwiftCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4AD1541F3D4BDE006BF618 /* SwiftCharts.framework */; };
 		2DF1CCB81F3F861B00612B08 /* SimpleBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1CCB71F3F861B00612B08 /* SimpleBarChartView.swift */; };
 		2DF1CCBD1F3F8C2900612B08 /* SimpleBarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1CCBC1F3F8C2900612B08 /* SimpleBarChartData.swift */; };
@@ -30,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D3965C61F400A4B003081FF /* DonutChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonutChartData.swift; path = ChartModel/DonutChartData.swift; sourceTree = "<group>"; };
+		2D3965C91F400AA2003081FF /* PieChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartData.swift; path = ChartModel/PieChartData.swift; sourceTree = "<group>"; };
+		2D3965CB1F400C64003081FF /* PieChartFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartFactory.swift; sourceTree = "<group>"; };
 		2D4AD1541F3D4BDE006BF618 /* SwiftCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4AD1571F3D4BDE006BF618 /* SwiftCharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCharts.h; sourceTree = "<group>"; };
 		2D4AD1581F3D4BDE006BF618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,7 +43,6 @@
 		2D86A79E1F3D4D8D003464FC /* DiscreteLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscreteLineChartView.swift; sourceTree = "<group>"; };
 		2D86A7A61F3D5312003464FC /* DonutChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartView.swift; sourceTree = "<group>"; };
 		2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartFactory.swift; sourceTree = "<group>"; };
-		2D86A7AC1F3D5421003464FC /* DonutChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartData.swift; sourceTree = "<group>"; };
 		2DF1CCB71F3F861B00612B08 /* SimpleBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleBarChartView.swift; sourceTree = "<group>"; };
 		2DF1CCBC1F3F8C2900612B08 /* SimpleBarChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleBarChartData.swift; path = ChartModel/SimpleBarChartData.swift; sourceTree = "<group>"; };
 		2DFA27CD1F3EB45300F0C1C6 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
@@ -64,6 +68,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D3965C81F400A5D003081FF /* ChartModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D3965C61F400A4B003081FF /* DonutChartData.swift */,
+				2DF1CCBC1F3F8C2900612B08 /* SimpleBarChartData.swift */,
+				2D3965C91F400AA2003081FF /* PieChartData.swift */,
+			);
+			name = ChartModel;
+			sourceTree = "<group>";
+		};
 		2D4AD14A1F3D4BDE006BF618 = {
 			isa = PBXGroup;
 			children = (
@@ -85,16 +99,16 @@
 		2D4AD1561F3D4BDE006BF618 /* SwiftCharts */ = {
 			isa = PBXGroup;
 			children = (
+				2D3965C81F400A5D003081FF /* ChartModel */,
 				2D4AD1571F3D4BDE006BF618 /* SwiftCharts.h */,
 				2D4AD1581F3D4BDE006BF618 /* Info.plist */,
 				2D86A79E1F3D4D8D003464FC /* DiscreteLineChartView.swift */,
 				2D86A7A61F3D5312003464FC /* DonutChartView.swift */,
 				2D86A7A91F3D53FA003464FC /* DonutChartFactory.swift */,
-				2D86A7AC1F3D5421003464FC /* DonutChartData.swift */,
 				2DFA27CD1F3EB45300F0C1C6 /* PieChartView.swift */,
-				2DFA27D01F3EB4A300F0C1C6 /* NumberUtils.swift */,
+				2D3965CB1F400C64003081FF /* PieChartFactory.swift */,
 				2DF1CCB71F3F861B00612B08 /* SimpleBarChartView.swift */,
-				2DF1CCBC1F3F8C2900612B08 /* SimpleBarChartData.swift */,
+				2DFA27D01F3EB4A300F0C1C6 /* NumberUtils.swift */,
 			);
 			path = SwiftCharts;
 			sourceTree = "<group>";
@@ -223,10 +237,12 @@
 			files = (
 				2D86A7A71F3D5312003464FC /* DonutChartView.swift in Sources */,
 				2DFA27CE1F3EB45300F0C1C6 /* PieChartView.swift in Sources */,
-				2D86A7AD1F3D5421003464FC /* DonutChartData.swift in Sources */,
+				2D3965CC1F400C64003081FF /* PieChartFactory.swift in Sources */,
 				2D86A79F1F3D4D8E003464FC /* DiscreteLineChartView.swift in Sources */,
 				2DFA27D11F3EB4A300F0C1C6 /* NumberUtils.swift in Sources */,
+				2D3965CA1F400AA2003081FF /* PieChartData.swift in Sources */,
 				2DF1CCB81F3F861B00612B08 /* SimpleBarChartView.swift in Sources */,
+				2D3965C71F400A4B003081FF /* DonutChartData.swift in Sources */,
 				2DF1CCBD1F3F8C2900612B08 /* SimpleBarChartData.swift in Sources */,
 				2D86A7AA1F3D53FA003464FC /* DonutChartFactory.swift in Sources */,
 			);
