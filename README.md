@@ -2,7 +2,7 @@
 
 Simple framework to draw customizable charts for iOS.
 
-![Swift 3.0.x](https://img.shields.io/badge/Swift-3.0.x-orange.svg) ![platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg) ![licence](https://img.shields.io/badge/license-MIT-blue.svg)
+![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg) ![platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg) ![licence](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Using
 #### First of all - Import module
